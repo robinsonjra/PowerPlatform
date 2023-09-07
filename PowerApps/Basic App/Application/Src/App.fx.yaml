@@ -1,0 +1,19 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: |-
+        =ClearCollect(colScreenNavigation,
+            {Id: 1, Screenname: "Home Screen"},
+            {Id: 2, Screenname: "Add Screen"},
+            {Id: 3, Screenname: "Edit Screen"},
+            {Id: 4, Screenname: "View Screen"},
+            {Id: 5, Screenname: "Admin Screen"}
+        )
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+
