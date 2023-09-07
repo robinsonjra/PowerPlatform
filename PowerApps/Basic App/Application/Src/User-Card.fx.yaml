@@ -1,0 +1,48 @@
+"'User-Card' As screen":
+
+    Image2 As image:
+        Height: =336
+        Image: =User().Image
+        Width: =338
+        X: =150
+        Y: =93
+        ZIndex: =1
+
+    Label1 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =21
+        Text: =User().FullName
+        Width: =640
+        Y: =593
+        ZIndex: =2
+
+    Label2 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =21
+        Text: =User().Email
+        Width: =640
+        Y: =764
+        ZIndex: =3
+
+    Label3 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="Su nombre completo"
+        Width: =640
+        Y: =523
+        ZIndex: =4
+
+    Label3_1 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="Su dirección de correo"
+        Width: =640
+        Y: =694
+        ZIndex: =5
+

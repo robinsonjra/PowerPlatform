@@ -1,0 +1,40 @@
+{
+  "0d7dd42b-3b79-4726-9896-cd3f91e9ae05": {
+    "connectionRef": {
+      "displayName": "Excel",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/partial-builds/ase-v3/1.0.1653.3402/excel/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excel"
+    },
+    "datasets": {
+      "b!aGjxFhLLFU6GaGMcNi0Zvi6q0fM-DjJEidtU1svbCHDHc2ZH3H6nSbW5LIA0Pk_e.01OTJODJNXTC4HQG3TEJGK4ZVZMTSVTJRG": {
+        "dataSources": {
+          "FlooringEstimates": {
+            "tableName": "FlooringEstimates"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "FlooringEstimates"
+    ],
+    "dependencies": {
+      "fileSource": "673aaad3-b5bc-4afc-a524-ab98609479a9"
+    },
+    "dependents": [],
+    "id": "0d7dd42b-3b79-4726-9896-cd3f91e9ae05"
+  },
+  "673aaad3-b5bc-4afc-a524-ab98609479a9": {
+    "connectionRef": {
+      "displayName": "OneDrive para la Empresa",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1647/1.0.1647.3361/onedriveforbusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "0d7dd42b-3b79-4726-9896-cd3f91e9ae05"
+    ],
+    "id": "673aaad3-b5bc-4afc-a524-ab98609479a9"
+  }
+}

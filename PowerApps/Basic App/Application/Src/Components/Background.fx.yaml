@@ -1,0 +1,22 @@
+Background As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =90
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    cp1_background As rectangle:
+        Height: =90
+        Width: =Parent.Width
+        ZIndex: =1
+
+    cp1_name As label:
+        Height: =90
+        Size: =27
+        Text: ="FlooringEstimates"
+        Width: =547
+        Wrap: =false
+        X: =71
+        ZIndex: =2
+
